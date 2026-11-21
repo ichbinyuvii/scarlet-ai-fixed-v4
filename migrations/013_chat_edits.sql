@@ -1,0 +1,2 @@
+ALTER TABLE messages ADD COLUMN IF NOT EXISTS intent text;
+ALTER TABLE messages ADD COLUMN IF NOT EXISTS document_id text REFERENCES documents(id) ON DELETE SET NULL;

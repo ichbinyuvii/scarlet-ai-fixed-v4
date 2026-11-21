@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.scarlet/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+test-results/
+.next-dev/
